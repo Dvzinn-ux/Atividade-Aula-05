@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário - Ichigo Kurosaki</title>
+</head>
+<body>
+    <header>
+        <h1>Formulário de Fã</h1>
+    </header>
+
+    <nav>
+        <b>Menu de Navegação:</b><br>
+            <a href="index.html">Início</a> |
+            <a href="biografia.html">Biografia</a> |
+            <a href="poderes.html">Poderes</a> |
+            <a href="zangetsu.html">Zangetsu</a> |
+            <a href="amigos.html">Amigos</a> | 
+            <a href="familia.html">Família</a> |
+            <a href="arcs.html">Arcos</a> | 
+            <a href="bankai.html">Bankai</a> |
+            <a href="hollow.html">Hollow</a> |
+            <a href="citacoes.html">Citações</a> |
+            <a href="formulario.html">Formulário</a> |
+            <a href="detalhes.html">Detalhes</a> |
+    </nav>
+
+    
+<h1> Envie sua mensagem</h1>
+
+    <p>Preencha o formulário abaixo e conte um pouco sobre você e sua relação com Bleach.</p>
+
+    <form>
+
+        <fieldset>
+            <legend><strong>Informações pessoais</strong></legend>
+
+            <p>
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" name="nome"
+                       placeholder="Digite seu nome" required>
+            </p>
+
+            <p>
+                <label for="data">Data de nascimento:</label><br>
+                <input type="date" id="data" name="data">
+            </p>
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend><strong>Sobre Bleach</strong></legend>
+
+            <p>
+                <label>Personagem favorito:</label><br>
+                <input list="personagens" name="favorito" placeholder="Escolha ou digite" required>
+                <datalist id="personagens">
+                 <option value="Ichigo Kurosaki">
+                 <option value="Rukia Kuchiki">
+                 <option value="Orihime Inoue">
+                 <option value="Uryū Ishida">
+                 <option value="Renji Abarai">
+                </datalist>
+            </p>
+
+            <p>
+                <label for="bankai">Cor favorita da Bankai:</label><br>
+                <input type="color" id="bankai" name="bankai">
+            </p>
+
+            <p>
+                <label for="fa">Nível de fã (0 a 100):</label><br>
+                <input type="range" id="fa" name="fa" min="0" max="100" value="50">
+            </p>
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend><strong>Mensagem</strong></legend>
+
+            <p>
+                <label for="mensagem">Deixe sua mensagem:</label><br>
+                <textarea id="mensagem" name="mensagem"
+                          rows="5" cols="40"
+                          placeholder="Escreva sua mensagem..."></textarea>
+            </p>
+
+            <p>
+                <label for="imagem">Envie uma imagem:</label><br>
+                <input type="file" id="imagem" name="imagem">
+            </p>
+
+        </fieldset>
+
+        <br>
+
+        <input type="submit" value="Enviar mensagem">
+        <input type="reset" value="Limpar">
+
+    </form>
+
+    <hr>
+
+    <h2>🌑 Sobre o site</h2>
+
+    <p>
+        Este site foi criado para apresentar informações sobre
+        <strong>Ichigo Kurosaki</strong> e o universo de Bleach.
+    </p>
+
+    <p>
+        <a href="https://bleach.fandom.com/pt/wiki/Ichigo_Kurosaki" target="_blank">
+            Saiba mais sobre Ichigo Kurosaki
+        </a>
+    </p>
+
+<hr>
+    <footer>
+        <p>Site sobre Ichigo Kurosaki – Bleach</p>
+    </footer>
+</body>
+</html>
